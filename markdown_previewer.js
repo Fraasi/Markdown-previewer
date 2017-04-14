@@ -32,7 +32,7 @@ Numbered list:
 ### Tables
 | Creator | Repo | Demo |
 | --- | --- | --- |
-| [Fraasi](https://github.com/fraasi) | [Markdown Previewer](https://github.com/Fraasi/Markdown-previewer) | [Live Demo](https://fraasi.github.io/Markdown-previewer/) |`;
+| [Fraasi](https://github.com/fraasi) | [Markdown Previewer](https://github.com/Fraasi/Markdown-previewer) | [Live Demo](https://fraasi.github.io/Markdown-previewer) |`;
 
 
 class Boxes extends React.Component {
