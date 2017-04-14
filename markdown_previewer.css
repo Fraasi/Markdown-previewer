@@ -1,0 +1,34 @@
+#wrapper {
+	width: 95%;
+	height: 600px;
+	border: 1px solid black;
+	margin: 2% auto 0px auto;
+	padding: 5px;
+	background-color: #333333;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.left, .right {
+	overflow: auto;
+	width: 48%;
+	padding: 5px;
+	height: 530px;
+	background-color: #3F3F3F;
+	border: 1px solid black;
+	color: #dcdcdc;
+}
+.title, .titleP {
+	margin: 4px;
+	text-align: center;
+	color: #dcdcdc;
+}
+a {
+	color: lightblue;
+}
+textarea {
+   resize: none;
+}
