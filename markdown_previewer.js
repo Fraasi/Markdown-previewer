@@ -1,11 +1,11 @@
-var wrapper = document.querySelector('#wrapper');
-
 var examples =
 `Heading
 =======
 
 Sub-heading
 -----------
+
+[# link to table](#table)
 
 List:
 
@@ -24,12 +24,21 @@ Numbered list:
 2. \\ escapes like \\*this\\*.
 3. \`Monospace\`, ~~strikethrough~~.
 
+<!-- add language for syntax highlighting (if supported) -->
+\`\`\`javascript
+var abc = "CodeBlocks with three back-tics.";
+alert(abc);
+\`\`\`
+<br/>
+
 ---
 
 > All things are subject to interpretation. Whichever interpretation prevails at a given time is a function of **power** and not truth.
 > \\- *Friedrich Nietzsche*
 
-### Tables
+---
+
+### Table
 | Creator | Repo | Demo |
 | --- | --- | --- |
 | [Fraasi](https://github.com/fraasi) | [Markdown Previewer](https://github.com/Fraasi/Markdown-previewer) | [Live Demo](https://fraasi.github.io/Markdown-previewer) |`;
@@ -95,4 +104,4 @@ class Editor extends React.Component {
 	}
 };
 		
-ReactDOM.render(React.createElement(Editor, null), wrapper);
+ReactDOM.render(React.createElement(Editor, null), document.querySelector('#wrapper'));
